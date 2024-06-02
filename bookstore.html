@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>book store</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <style>
+
+
+     .carousel-inner img {
+            width: 100%;
+            height: 700px;
+        }
+
+    </style>
+</head>
+<body></body>
+<header>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">BookStore</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Books</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">contact us</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+</header>
+
+<!--carousel--->
+<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <ol class="carousel-indicators">
+        <!-- Updated data attributes for Bootstrap 5 -->
+        <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
+        <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
+        <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="https://m.media-amazon.com/images/I/814L+vq01mL._AC_UY327_FMwebp_QL65_.jpg" class="d-block w-100" alt="Featured Book 1">
+            <div class="carousel-caption d-none d-md-block">
+              
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="https://m.media-amazon.com/images/I/81yxRLBMmkL._AC_UY327_FMwebp_QL65_.jpg" class="d-block w-100" alt="Featured Book 2">
+            <div class="carousel-caption d-none d-md-block">
+                >
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="https://th.bing.com/th/id/OIP.JDv_T0ixM1mejygOs1MK5QHaLG?w=188&h=282&c=7&r=0&o=5&dpr=1.6&pid=1.7" class="d-block w-100" alt="Featured Book 3">
+            <div class="carousel-caption d-none d-md-block">
+                
+            </div>
+        </div>
+    </div>
+   
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </a>
+</div>
+<!--card-->
+<div class="container my-5">
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card book-card">
+                <img src="https://m.media-amazon.com/images/I/71XEsXS5RlL._AC_UY327_FMwebp_QL65_.jpg" class="card-img-top" alt="Book 1">
+                <div class="card-body">
+                    <h5 class="card-title">The Psychology of Money </h5>
+                    <p class="card-text">by Morgan Housel</p>
+                    <p class="card-text">$10.99</p>
+                    <p class="card-text">Timeless lessons on wealth, greed, and happiness doing well with money isn?t necessarily about what you know. It?s about how you behave.</p>
+                    <a href="#" class="btn btn-primary">Add to Cart</a>
+                    <a href="#" class="btn btn-secondary">View Details</a>
+                </div>
+            </div>
+        </div>
+        
+
+        <!--card 2-->
+
+        <div class="col-md-4">
+            <div class="card book-card">
+                <img src="https://m.media-amazon.com/images/I/81M54bFUstL._AC_UY327_FMwebp_QL65_.jpg" class="card-img-top" alt="Book 1">
+                <div class="card-body">
+                    <h5 class="card-title">The Wealth Money Can't Buy: The 8 Hidden Habits to Live Your Richest Life</h5>
+                    <p class="card-text">by Robin Sharma</p>
+                    <p class="card-text">$5.99</p>
+                    <p class="card-text">Based on The 8 Forms of Wealth learning model that Robin Sharma—legendary personal growth expert and famed mentor to billionaires, professional sports superstars and heads of state.</p>
+                    <a href="#" class="btn btn-primary">Add to Cart</a>
+                    <a href="#" class="btn btn-secondary">View Details</a>
+                </div>
+            </div>
+        </div>
+        <!--card 3-->
+        <div class="col-md-4">
+            <div class="card book-card">
+                <img src="https://m.media-amazon.com/images/I/51MB4Tc-cFL._AC_UY327_FMwebp_QL65_.jpg" class="card-img-top" alt="Book 1">
+                <div class="card-body">
+                    <h5 class="card-title"The Book of life   </h5>
+                    <p class="card-text">by J. Krishnamurti /p>
+                    <p class="card-text">$34.99</p>
+                    <p class="card-text">Inspired by Krishnamurti's belief that truth is found through living, The Book of Life presents 365 timeless daily meditations, developed thematically over seven days, illuminating the concepts of freedom, personal transformation, living fully awake and much more.</p>
+                    <a href="#" class="btn btn-primary">Add to Cart</a>
+                    <a href="#" class="btn btn-secondary">View Details</a>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</div>
+
+
+
+<!-- Book Details -->
+<div class="container my-5">
+    <div class="row">
+        <div class="col-md-6">
+            <img src="https://m.media-amazon.com/images/I/81M54bFUstL._AC_UY327_FMwebp_QL65_.jpg" class="img-fluid" alt="Book Details">
+        </div>
+        <div class="col-md-6">
+            <h1>The Wealth Money Can't Buy: The 8 Hidden Habits to Live Your Richest Life</h1>
+            <h4>by Robin Sharma</h4>
+            <p class="text-muted">$5.99</p>
+            <p>The Wealth Money Can’t Buy offers you a completely life-changing new philosophy and methodology for enjoying an honestly rich life, one filled with personal power, unusual authenticity, exceptionally fulfilling work and a beautiful lifestyle that will make you feel that real fortune has finally smiled on you.
+
+                Based on The 8 Forms of Wealth learning model that Robin Sharma—legendary personal growth expert and famed mentor to billionaires, professional sports superstars and heads of state—has taught to his clients with transforma-tional results, this masterwork is sure to become your daily guide to enjoying the lifetime of your highest dreams.</p>
+            <button class="btn btn-success">Buy Now</button>
+        </div>
+    </div>
+</div>
+
+    <div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="contactModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="contactModalLabel">Contact Us</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" class="form-control" id="name" placeholder="Your Name">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email address</label>
+                            <input type="email" class="form-control" id="email" placeholder="name@example.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea class="form-control" id="message" rows="3"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer -->
+<footer class="footer">
+    <div class="container text-center">
+        <p>Follow us on</p>
+        <a href="#">Facebook</a> | 
+        <a href="#">Twitter</a> | 
+        <a href="#">Instagram</a>
+        <br>
+        <a href="#">Privacy Policy</a> | 
+        <a href="#">Terms of Service</a>
+    </div>
+</footer>
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            // Modal trigger
+            $('#contactModal').modal('toggle');
+        });
+    </script>
+    
+</body>
+</html>
